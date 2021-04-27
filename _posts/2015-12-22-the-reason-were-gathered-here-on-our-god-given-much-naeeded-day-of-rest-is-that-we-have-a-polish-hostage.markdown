@@ -1,13 +1,26 @@
 ---
 layout: post
-title: The reason we're gathered here on our God-given, much-naeeded day
+title: 자전거 후미등 팔아서 월급을 준다고? (feat. 마케팅 담당자의 오트웍스 입사ssul)
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/8.jpg'
 ---
 
-I can remember about 4 years ago, I started to make HTML templates for ThemeForest. Unfortunately, I failed to pass the quality stage and I was not getting enough feedback from them. I was getting a general sentence saying that my item is not ready yet and the design quality is not unique enough.
+목련이 필랑말랑, 벚꽃은 아직, 황사가 오네마네 그러던 어느 봄날 초입. 나는 오트웍스에 합류하기로 했다. 마케팅으로 밥벌이하면서 하고 싶었던 것들을 함께 할 수 있는 즐거운 직장이 될 것이라는 기대와, 나보다 먼저 오트웍스에서 피땀눈물 쏟으며 연구하고 개발한 제품을 더 많이 팔아야한다는 부담감을 갖고 오트웍스에 입사하기 며칠 전, 이 기쁜 소식을 전하고자 엄마에게 전화를 걸었다.
 
-Fortunately, I succeed this time I have leaned and done things I have never done before that keeps me learn new stuff every single day and I want to share with you some tips about starting your own business creating themes like WordPress, Ghost, or Jekyll. I think these tips will work with any online business not only for themes.
+나의 예상: 우와! 우리 딸 넘 대단해. 다들 코로나 때문에 이직도 취직도 힘들다던데, 우리 딸 너무 자랑스럽다! 요즘 자전거, 킥보드 많이 타던데 회사도 우리딸도 더 잘될거야
+
+대단한 능력자는 아니어도, 엄마품을 떠나서도 꾸준히 내 앞가림을 하며 살아가고 있는 나름 괜찮은 딸의 자부심을 가득 끼얹은 마음으로 엄마에게 전화 go! 컬러링은 나보다 더 많은 효도로 울엄마를 행복하게 하는 영탁의 찐찐찐. 컬러링으로 해두면 엄마는 못 듣고 (나를 비롯한) 다른 사람만 듣는다고 여러번 말해줬으나 그건 엄마에게 아무 상관이 없는 일.
+
+따르르릉-
+엄마: 여보세요, 응, 딸.
+나: 뭐해요? 식사는 하셨어요?
+엄마: 먹었지. 공주는 먹었나? 회사일은 어때? 요즘도 많이 바빠?
+나: 그럭저럭. 아, 엄마 그런데 나 이직해요. 그래서 지금 회사일은 마무리하고 인수인계하고 그러는 중이에요. 
+엄마: 그래? 축하해~ 어떤 회사로 가는데?
+나: 오트웍스라고 자전거 악세사리 만드는 스타트업인데, 자전거 앞에 다는 라이트를 전조등이라고 하고 뒤에 다는걸 후미등이라고 하는데, 그 전조등이나 후미등 같은걸 엄청 멋지고 똑똑하게 만드는 그런 회사? 
+엄마: 으으으으으으으응? 뭐라고????? 후미등 팔아서 회사가 돌아가나???????
+
+그랬다. 엄마는 진심으로 이해가 안되서 한참을 되물었다. 그거말고 다른건 안파냐고, 정말 전조등, 후미등만 팔아서 직원 월급 주고 회사가 돌아가냐고, 너 월급은 제대로 받을 수 있는거 확실하냐고. 딸의 걱정에 같은 질문을 여러번 하는 엄마에게 '앞으로 다양한 제품을 출시할 것'이라는 말을 시작으로 투자설명회 돋는 답변을 했다. 그렇게 엄마와 몇마디 더 주고받다가 전화를 끊고, 이런저런 생각을 하다보니, 엄마의 걱정에 대한 답변을 좀 더 넓혀서 생각하게 되었다.
 
 ### Todo
 
