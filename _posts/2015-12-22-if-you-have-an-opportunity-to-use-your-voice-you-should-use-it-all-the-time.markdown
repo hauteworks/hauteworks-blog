@@ -1,31 +1,28 @@
 ---
 layout: post
-title: If you have an opportunity to use your voice you should use it all
+title: EDR 런칭, Ever Day Ride #오트웍스 #신제품개발기
 tags: [frontpage, jekyll, blog]
 image: '/images/posts/7.jpg'
 ---
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+***왜 또 후미등이에요? 이번 후미등은 어떤 점이 더 좋아졌어요?***
 
-Vix dico eius nominati cu, ex zril commodo fuisset mea. Habeo adhuc audiam ius no. In quis virtute officiis has. Vix ad honestatis accommodare, quis virtute et sit, pertinax expetenda eam id. Duo an fuisset delectus dissentias, justo altera ea per.
+오트웍스는 2017년 첫번째 후미등 Rayo를 글로벌 크라우드 펀딩으로 선보이고, 2019년 두번째 후미등 Cliq을 선보였습니다. 시중에 많고많은 후미등 중에 오트웍스에서 선보인 후미등은 단언컨대, 가장 똑똑한 기능에 세련된 디자인이 적용된 제품이라고 할 수 있습니다. 라이딩에 최적화하여 맞춤 설계된 3개의 고휘도LED 렌즈와 2개의 TIR 광학 렌즈가 설치되어 어떠한 라이딩에서도 사각지대 없이 가시성을 확보하고, 브레이크를 잡으면 자동으로 후미등이 밝아져 후방에서 오는 라이더와의 추돌을 방지해주는 기능을 구현하여 '밝고 똑똑하고 야무진' 후미등으로 많은 라이더들의 사랑을 받았죠.
 
-##### Todo
+하지만, Cliq과 함께 라이딩을 즐기는 라이더들의 이야기에 좀 더 귀기울여보자 칭찬과 함께 다양한 의견을 들을 수 있었습니다. '제품이 좋기는 한데 비싸고, 다른 후미등보다 크고 무거워요' '쉽게 사기는 가격대도 좀 부담스럽고, 뭔가 쉽게 다가가기 힘든 느낌이에요' '써보니 엄청 좋은데 선물하기는 좀 부담스럽고, 이 기능을 선물 받는 사람이 다 쓸까 앞선 걱정이 되기도 해요' 이런 의견을 들으면서 저희의 새로운 숙제에 대해 고민하게 되었습니다. 그 결과 저희는 좀 더 가벼운 후미등 출시에 대한 고민을 시작했고, 치열한 연구과 개발을 진행하였습니다.
 
-Duis id ante elit. Aliquam quis tellus id orci eleifend finibus. Donec consequat justo ligula, eget sodales purus hendrerit at.
+**여러모로 가벼운 후미등**
+Rayo, Cliq과 함께 라이딩을 해보신 분들의 '부담스러움'을 줄일 구체적인 방법에 대해 다양하게 고민해봤습니다. 가격도 좀 더 싸게, 무게도 줄이기 위한 방법을 고민해보고, 저희가 구현하는 여러 기능에 대해서도 다시 고민해봤습니다. 최첨단 기술이 적용된 제품을 선보이고, 그 기능으로 높은 만족을 제공하는 것을 최우선의 가치이지만, 보다 많은 이들에게 다양한 만족감을 드리기 위해서 좀 더 제네럴한 제품을 선보이는 것에 대해 고민했습니다.
+그래서 저희는, 하루종일 라이딩에 대해서 고민하고, 주말 라이딩을 위해 주중에 돈 버는 자덕을 위한 하이엔드 제품을 넘어서, 그들의 자녀, 반려동물, 부모님 등 다양한 라이더가 함께할 수 있는 제품을 연구 개발하게 되었습니다. 전문적인 라이딩이 목적이 아닌, 매일 편하게 일상에서 함께할 수 있는 모빌리티  디바이스를 만들어보기로 한 것이죠. 라이딩 디바이스를 넘어, 다양한 일상 생활에서 사용할 수 있는 편리한 안전 용품이나 휴대용품, 패셔너블 디바이스가 될 수 있도록 제품에 대한 고민을 처음부터 다시 시작했습니다. 오트웍스가 Rayo, Cliq 그리고 Farina를 통해 쌓아온 노하우와 연구, 개발 DB를 바탕으로 했지만, 디자인, 기능, 가격, 소비자 접근에 있어서는 모든 것을 리셋하고 차근차근 다시 쌓아올렸습니다.
+그래서 저희는 오트웍스의 최신 후미등 Cliq과 대비했을 때 **한 가격(59,000원 -> 00,000원), **% 무게(65g -> **g)의 EDR-Tailor를 선보이게 되었습니다.  가격과 무게가 가벼워진 EDR-Tailor의 최대 밝기는 Cliq의 90루멘 보다 줄어든 **이나, 안전한 야간 라이딩을 위한 기준에는 적합한 정도입니다. 무게를 줄이기 위해 배터리 용량을 줄이게 되었는데요, 이 점은 밝기 용량을 줄이면서 전체적인 사용 시간은 보존하게 되었습니다. 안전한 라이딩을 위한 밝기는 유지하되, 가벼운 사용감은 더하고, 사용 시간은 유지시킨 효율적인 제품입니다.
+또, 컴팩트한 디자인을 적용하여 가볍게 설치하고, 어떤 모빌리티에도 어울리는 것이 특징입니다.
 
-1. Ut at interdum nunc. Maecenas commodo turpis quis elementum gravida.
-2. Nunc ac sapien tellus. Quisque risus enim, tempus eget porttitor in, pellentesque vel urna.
-    Donec nibh massa, rutrum a sollicitudin eu,
-lacinia in lorem.
+**매일, 편하게, 또 유쾌하게!**
+오트웍스에서 선보인 기존 제품은 계획적인 라이딩에 적합한 제품이었다면, EDR은 말 그대로 매일 즐겁고 편하고 유쾌하게 사용할 수 있는 제품입니다. 일주일에 1-2번 충전하고 매일 퇴근길, 밤산책, 자전거 데이트...반짝반짝 빛나는 어느 저녁이나 밤에 함께할 수 있는 그런 무언가가 되고 싶습니다. EDR, Every Day Ride. 당신이 어디에서 어떤 모빌리티를 이용하든, 매일 잠깐씩 혹은 오랜시간 함께 밤 공기를 가로지르는 액세서리가 될 EDR-Tailor 입니다. 매일 가방에 챙기는 손수건, 텀블러, 선글라스처럼 EDR-Tailor는 가방에 휴대하고 다니다 필요할 때 꺼내서 나의 뒤를 밝혀주기도 하고, 나만의 자전거에 설치해두고 라이딩할 때마다 사용할 수 있는 제품입니다.
 
-##### Graphic design
+**길에서 만나는 다양한 라이더**
+오트웍스에서 EDR 라인을 한참 준비하고 있을 무렵, 국내외 모빌리티 환경도 급변하였습니다. 쉐어 모빌리티가 증가하였고, 자전거 외에도 다양한 형태의 라이딩을 즐기는 이들이 늘었습니다. 메신저백이나 백팩을 메고 자전거나 킥보드로 출퇴근하는 동료가 늘어나고, 길에서 전동킥보드를 이용하는 이들이 증가하면서 관련 법률이 만들어지기도 했죠. 또 서울 따릉이, 대전 타슈, 창원 누비자 등 각 지자체에서 운영하는 공공자전거도 전국적으로 확산되었습니다. 시내 곳곳에 공공 자전거 대여소가 설치되고, 자전거 전용 도로나 공용 도로 정비가 개선되면서 쉐어 모빌리티 사용자도 꾸준히 증가하고 있습니다. 이들의 안전한 라이딩에 대한 수요도 증가하면서, 저희는 휴대가 편한 EDR-Tailor가 그들의 안전한 귀가길, 데이트, 밤 산책에 함께하고 싶습니다. 오트웍스는이렇게 변화하는 모빌리티 환경과 함께 호흡하며 성장하는 퍼스널 모빌리티 브랜드가 되고자 합니다.
 
-> Graphic design is the paradise of individuality, eccentricity, heresy, abnormality, hobbies, and humors. - George Santayana
+사실, 더욱 새롭고 최신의 기능이 적용된 오트웍스의 후미등 출시를 기다린 고객님들께는 덜 반가운 소식일지도 모르겠습니다. 조도, 배터리 수명과 같은 점에서 최신 기술을 적용한 제품이 아닌, 좀 더 가볍고 편하게 사용할 수 있는 제품을 선보이게 되었기 때문이죠. 이번에 저희가 선보이는 새로운 후미등은 가장 트렌디한 모빌리티&라이딩 요소를 접목한 라이딩 디바이스입니다. 신제품이라는 것이, 꼭 최신의 기술만 지향하는 것은 아니라고 생각합니다. 좀 더 많은 이들이 안전하고, 편안해지는 것도 중요한 가치이기에 그러한 가치를 담기 위해 노력했습니다. 또, 연료를 사용하지 않는 자전거나, 친환경적인 충전/연료 공급을 지향하는 모빌리티와 함께 하는 라이더와 함께 우리가 살아가는 지구, 생태계의 지속 가능한 공존을 위한 고민도 함께 담았습니다. 디자인은 물론, 제품 패키지, 개발 과정에서도 환경을 고려했고 EDR이 담고 있는 친환경 메시지에 대해서도 함께 나눌 수 있으면 좋겠어요.
 
-Vim te case nihil oblique, has partem interpretaris ne, ad admodum accusamus nam. Usu utinam dissentias referrentur ne, vim accusam voluptua pertinacia no. Est no posse utinam inermis, brute errem mentitum et ius, te prompta albucius quo. In pro simul soleat regione.
-
-![alt](https://images.unsplash.com/photo-1433785567155-bf5530cab72c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1348aea714b9493fa61a09a8c01113e6)
-
-Ne reque offendit singulis mea, ad eos ferri doming nostrud. Duis suscipit usu ut, fuisset pericula ex est, et porro prompta his. Audire definiebas voluptatibus et duo, aperiam ocurreret ad nec. Vel ad nostrud principes. Ad liber congue iracundia sed, eirmod erroribus eam te, has veniam epicurei ea.
-
-Pri probo alterum aliquando an. Duo appetere laboramus intellegat ea, ex suas diam exerci vix. Mel simul debitis id, est nusquam fuisset mentitum in. Te mei iudico iisque.
+EDR-Tailor로 시작하는 오트웍스의 EDR, 앞으로 전조등, 스마트 디바이스를 차근차근 선보일 예정입니다. 오트웍스만의 아이덴티티를 담은, 라이더를 위한 EDR의 이야기, 앞으로도 기대해주세요.
