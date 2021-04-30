@@ -2,7 +2,7 @@
 layout: post
 title: EDR 런칭, Every Day Ride &#35;오트웍스 &#35;신제품개발기
 tags: [frontpage, jekyll, blog]
-image: '/images/posts/7.jpg'
+image: '/images/posts/edr_launch.png'
 ---
 
 ***왜 또 후미등이에요? 이번 후미등은 어떤 점이 더 좋아졌어요?***
