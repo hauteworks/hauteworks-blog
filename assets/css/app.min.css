@@ -3992,3 +3992,7 @@ main {
 .error-template main {
 	opacity: 1
 }
+
+#storelink {
+	color: white;
+}
