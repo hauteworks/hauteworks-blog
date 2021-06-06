@@ -834,7 +834,7 @@ label {
 .post__bio,
 .posts__text,
 .related__text {
-	font-size: 0.5em
+	font-size: 1.10em
 }
 
 @media (min-width:32em) {
@@ -842,7 +842,7 @@ label {
 	.post__bio,
 	.posts__text,
 	.related__text {
-		font-size: 1.10em
+		font-size: 0.50em
 	}
 }
 
