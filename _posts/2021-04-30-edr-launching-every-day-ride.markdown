@@ -4,7 +4,6 @@ title: "EDR 신제품 런칭"
 date: 2021-6-6
 description: 
 image: /assets/images/edr_launch.png
-author: Thomas Vaeth
 tags: 
   - EDR
   - 제품 소식
