@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "EDR 신제품 런칭"
-date: 2021-6-6
+date: 2021-06-06T10:20:00Z
 description: 
 image: /assets/images/edr_launch.png
 tags: 
