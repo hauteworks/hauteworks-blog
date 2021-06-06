@@ -1,212 +1,231 @@
-# Type: Minimal and Clean Free Jekyll Theme
+# Barber
+Barber is a minimal blog theme built for Jekyll. The blog theme features a masonry grid, endless scrolling, and page transitions. 💈 Barber is also available for [Ghost](https://github.com/samesies/barber-ghost).
 
-<img alt="Type: Minimal and Clean Free Jekyll Theme" src="https://user-images.githubusercontent.com/626005/63093493-c3daa880-bf65-11e9-860e-da88047cce24.png">
+![Barber](https://raw.githubusercontent.com/samesies/barber-jekyll/master/barber.jpg "Barber")
 
-- [Configurations](#configurations)
-- [Deployment](#deployment)
-- [Posts](#posts)
-- [Pages](#pages)
-- [Navigation](#navigation)
-- [Disqus Comments](#disqus-comments)
-- [Social Media Links](#social-media-links)
-- [Update favicon](#update-favicon)
+## Initial Setup
+* [Installation](#installation)
+* [Update Settings](#update-settings)
+* [Create Posts](#create-posts)
+* [Create Pages](#create-pages)
+* [Create Navigation](#create-navigation)
 
-### Configurations
+## Customization
+* [Contact Form](#contact-form)
+* [Social Media Links](#social-media-links)
+* [Disqus Comments](#disqus-comments)
 
-Type theme comes with different customizations in the `_config.yml` file:
+## Additional Development
+* [Deployment](#deployment)
+* [Source Code](#source-code)
+* [Donations](#donations)
+* [Support](#support)
 
-```sh
-title:       Type
-email:       ''
-description: ''
-baseurl:     '' # The subpath of your site, e.g. /blog
-url:         '' # The base hostname & protocol for your site
-twitter:     ''
-github:      ''
-instagram:   ''
-facebook:    ''
+### Installation
+Jekyll requires all dependencies to be saved in the ````Gemfile````. Run ````bundle install```` (Install [Bundler](http://bundler.io/) if it is not already) on your command line after downloading or cloning the theme. You can then run ````bundle exec jekyll serve```` or ````npm start```` to see your development site. Run ````bundle exec jekyll build```` or ````npm run build```` to build a production ready site for deployment.
 
-markdown:  kramdown
-permalink: pretty
-paginate:  60
+### Update Settings
+Almost everything to personalize your site is in the ````_config.yml````. 
 
-sass:
-  style: compressed
+```
+# Site/SEO settings
+email: okay@samesies.io
+baseurl: ""
+permalink: /:year/:month/:day/:title/
+google_analytics: 
 
-gems:
-  - jekyll-paginate
-  - jekyll/tagging
+name: Thomas Vaeth
+title: The Barber Theme
+description: >
+  Barber is a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
+url: http://barber.samesies.io
+twitter_username: thomasvaeth
+default_img: /assets/images/seo.jpg
+social:
+  - name: twitter
+    url: https://twitter.com/thomasvaeth
+  - name: instagram
+    url: https://www.instagram.com/thomas.vaeth/
+  - name: linkedin
+    url: https://www.linkedin.com/in/thomasvaeth/
+  - name: github
+    url: https://github.com/samesies
+  - name: codepen
+    url: https://codepen.io/thomasvaeth/
 
-include:
-  - _pages
+# Contact settings
+contact_img: /assets/images/placeholder-28.jpg
+formcarry: https://formcarry.com/s/HkIo0nMb7
 
-exclude:
-  - vendor
-  - Gemfile
-  - Gemfile.lock
+# Disqus settings
+disqus: test-apkdzgmqhj
 
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+# MailChimp settings
+mailchimp_action: https://samesies.us17.list-manage.com/subscribe/post-json?u=66ddf555dab480e6a8606430b&amp;id=89b3ee034f
+mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 
-# Pages path
-defaults:
-  - scope:
-      path: '_pages'
-    values:
-      permalink: /:basename:output_ext
+# Author settings
+author:
+  - name: Thomas Vaeth
+    bio: Thomas Vaeth was born in New York, raised in Pennsylvania, and transplanted in Washington. He was a Web Developer at Urban Influence, but now he's a Software Engineer at Getty Images.
+    url: http://thomasvaeth.com
+
+# Pagination settings
+pagination:
+  enabled: true
+  debug: false
+  per_page: 12
+  permalink: '/page/:num/'
+  title: ':title'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+autopages:
+  enabled: true
+  categories:
+    enabled: false
+  collections:
+    enabled: false
+  tags:
+    layouts: 
+      - 'tag.html'
+    title: 'The Barber Theme'
+    permalink: '/tag/:tag'
+    slugify:
+      mode: raw
+      cased: true
 ```
 
-### Deployment
+You can change the URL the [contact form](#contact-form) is sent to, add Google Analytics, change the SEO settings, grow your website with additional authors, and much more.
 
-To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` to start the Jekyll server.
+### Create Posts
+All posts go upder the ````_posts```` directory. You can also have a ````_drafts```` directory with posts that will on your development page, but not in production.
 
-I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
-
-### Posts
-
-To create a new post, you can create a new markdown file inside the `_posts` directory by following the [recommended file structure](https://jekyllrb.com/docs/posts/#creating-post-files).
-
-The following is a post file with different configurations you can add as an example:
-
-```sh
+```
 ---
 layout: post
-title: Welcome to Jekyll!
-featured: true
-tags: [frontpage, jekyll, blog]
-image: '/images/welcome.jpg'
+title: "Brunch Swag"
+date: 2017-02-18
+description: 
+image: /assets/images/placeholder-15.jpg
+author: Thomas Vaeth
+tags: 
+  - XOXO
+  - La Croix
 ---
 ```
 
-You can set the author, featured or not, tags, and the post image.
+The front matter has to have a layout of page. All the other fields are completely optional. If you have an ````author```` variable, then it must match an author's name in ````_config.yml```` (see [Update Settings](#update-settings)). The ````tag```` variable will add a related section to the post and popular tags to the footer.
 
-The `featured` key is to mark the post as a featured post, this will add a simple star icon (*) to the postcard.
+### Create Pages
+Creating a static page is the same as creating a post. The only difference is a page is in the root of the directory rather than the ````_posts```` directory.
 
-To keep things more organized, add post images to **/images/pages** directory, and add page images to **/images/pages** directory.
-
-To create a draft post, create the post file under the **_drafts** directory, and you can find more information at [Working with Drafts](http://jekyllrb.com/docs/drafts/).
-
-For tags, try to not add space between two words, for example, `Ruby on Rails`, could be something like (`ruby-on-rails`, `Ruby_on_Rails`, or `Ruby-on-Rails`).
-
-Note that tags are not working with GitHub Pages, that's because the used [jekyll-tagging
-](https://github.com/pattex/jekyll-tagging) plugin is not [whitelisted](https://pages.github.com/versions/) by GitHub.
-
-To make this work, I use [Netlify.com](https://www.netlify.com/) for deployment.
-
-### Pages
-
-To create a new page, just create a new markdown file inside the `_pages` directory.
-
-The following is the `about.md` file that you can find as an example included in the theme with the configurations you can set.
-
-```sh
+```
 ---
 layout: page
-title: About
-image: '/images/pages/about.jpeg'
+title: Style Guide
+image: /assets/images/placeholder-18.jpg
 ---
 ```
 
-Things you can change are: `title` and `image` path.
+You just have to make sure the front matter has a layout of page instead of post. If there is no title or image, then the page will default to the site configuration.
 
+### Create Navigation
+You can create a navigation in ````_includes/navigation.html````. Visitors can be linked directly to pages right on the top of your website.
 
-### Navigation
+***
 
-The navigation on the sidebar will automatically include all the links to the pages you have created.
+### Contact Form
+The form uses [Formcarry](https://formcarry.com/) to send submitted messages straight to your inbox. The image on the popup is the the ````contact_img```` variable and the URL the forms sends to is the ````formcarry```` variable in ````_config.yml```` (see [Update Settings](#update-settings)).
 
-### Disqus Comments
+![Contact Form](http://samesies.io/assets/images/barber/doc/framed-contact-form.jpg "Contact Form")
 
-Open `_includes/disqus.html` file, and change the `aspirethemes-demos` value on line `12` with your [Disqus account shortname](https://help.disqus.com/customer/portal/articles/466208).
-
-```js
-s.src = '//aspirethemes-demo.disqus.com/embed.js';
-```
-
-So, if your Disqus shortname is `exampleone`, the final code above should be
-
-```js
-s.src = '//exampleone.disqus.com/embed.js';
-```
-
-That's all you need to setup Disqus from the theme side. If you get any issue regarding that comments are unable to load. First, make sure you have [registered your website with Disqus (Step 1)](https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide)
-
-And also check [Disqus troubleshooting guide](https://help.disqus.com/customer/portal/articles/472007-i-m-receiving-the-message-%22we-were-unable-to-load-disqus-%22) if you still have issues.
+This file can be found in ````_includes/formscarry.html````. You can change the labels of the form here. After everything is set you will need to submit a message to yourself to confirm everything is correct.
 
 ### Social Media Links
+[Font Awesome](http://fontawesome.io/) is used for the social media icons. The icons in the theme can be found in ````_includes/share.html```` and ````_includes/social.html````. The icons in ````_includes/share.html```` do not need to be edited unless you want to remove a certain website; however, the ones in ````_includes/social.html```` do have to be changed. You can follow the example that has been provided in ````_config.yml```` for you to link to all of your social media accounts  (see [Update Settings](#update-settings)). The naming convention has not changed from the instructions provided on Font Awesome.
 
-Social media links included in `_includes/footer.html` file.
+### Disqus Comments
+Comments can be enabled on every blog post in a few steps steps. The first step is to register your website with [Disqus](https://disqus.com/). Disqus will provide you with a shortname that you need for the next step. Once you have that the second step is to replace the ````disqus```` variable in ````_config.yml```` (see [Update Settings](#update-settings)). The third step is to open ````_includes/disqus.html```` and remove all the instructions. The final step is to visit a blog post and verify that your comments are there.
 
-The theme is using [Evil Icons](http://evil-icons.io/), which contains very simple and clean icons. The following is a list of the social media icons to use:
+***
 
-Twitter
+### Deployment
+GitHub Pages [does not support]((https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/)) custom plugins. The tag list and tag pagination are built using custom plugins. There are several options to avoid any errors while deploying to production.
+* Run ````bundle exec jekyll build```` or ````npm run build```` and manually add the contents of the ```_site``` folder to the ```gh-pages``` branch.
+* Link the repository to [Netlify](https://www.netlify.com/). Netlify will then rebuild the theme every time a commit is pushed to the repo.
+* Finish setting up the [s3-website](https://github.com/klaemo/s3-website) package that is already included in the theme. This would deploy the theme to AWS S3 when ```npm run deploy``` is run.
 
-```html
-<span data-icon='ei-sc-twitter' data-size='s'></span>
+### Source Code
+The source code is broken down to make finding what you need as easy as possible. Almost everything runs through ````gulpfile.js````, so you will need to run ````npm install```` on your command line before doing any additional development. You can then run ````gulp```` or ````npm run gulp```` to compile everything.
+
+```
+.
+├── _assets
+|   ├── js
+|       ├── components
+|       ├── vendor
+|       ├── _inits.js
+|       └── app.js
+|   └── scss
+|       ├── base
+|       ├── components
+|       ├── fonts
+|       ├── regions
+|       ├── tools
+|       ├── utils
+|       ├── vendor
+|       └── app.scss
+├── _includes
+|   ├── contact.html
+|   ├── disqus.html
+|   ├── footer.html
+|   ├── formcarry.html
+|   ├── head.html
+|   ├── header.html
+|   ├── navigation.html
+|   ├── pagination.html
+|   ├── post-card.html
+|   ├── share.html
+|   ├── social.html
+|   └── subscribe_form.html
+├── _layouts
+|   ├── compress.html
+|   ├── default.html
+|   ├── page.html
+|   ├── post.html
+|   └── tag.html
+├── _plugins
+├── _posts
+├── _site
+├── assets
+|   ├── css
+|   ├── images
+|   ├── js
+├── .eslintrc
+├── .gitignore
+├── .stylelintrc
+├── 404.html
+├── _config.yml
+├── Gemfile
+├── Gemfile.lock
+├── gulpfile.js
+├── index.html
+├── package.json
+├── README.md
+├── style-guidle.html
+└── subscribe.html
 ```
 
-Facebook
+The CSS is written in Sass. The JavaScript is written in ES6, so your code is up to date with the newest standards.
 
-```html
-<span data-icon='ei-sc-facebook' data-size='s'></span>
-```
+### Donations
+Barber has been released for free. Similar themes cost around $29 on [ThemeForest](https://themeforest.net/category/static-site-generators/jekyll). Any donations would be greatly appreciated after the work that went into releasing Barber.
 
-Instagram
+* PayPal – <https://www.paypal.me/samesies>
+* Bitcoin – 1PSzNmcfAFJY1PtBK5u9R5bTGfF7KAuLcq
+* Ethereum – 0x392F7116e4171F1D740397B6000EadD2e4bb9670
+* Litecoin – LSH9AnjcUTV5T7PUxXQuxPqb9W5aSR9GEP
 
-```html
-<span data-icon='ei-sc-instagram' data-size='s'></span>
-```
-
-Pinterest
-
-```html
-<span data-icon='ei-sc-pinterest' data-size='s'></span>
-```
-
-Vimeo
-
-```html
-<span data-icon='ei-sc-vimeo' data-size='s'></span>
-```
-
-Google Plus
-
-```html
-<span data-icon='ei-sc-google-plus' data-size='s'></span>
-```
-
-SoundCloud
-
-```html
-<span data-icon='ei-sc-soundcloud' data-size='s'></span>
-```
-
-Tumblr
-
-```html
-<span data-icon='ei-sc-tumblr' data-size='s'></span>
-```
-
-Youtube
-
-```html
-<span data-icon='ei-sc-youtube' data-size='s'></span>
-```
-
-### Update favicon
-
-You can find the current favicon (favicon.ico) inside the theme root directory, just replace it with your new favicon.
-
-
-### Aspire Themes
-
-👉 Visit [**aspirethemes.com**](http://bit.ly/type-jekyll-github-link) for more Jekyll, Ghost, and WordPress themes.
-
-<img alt="Aspire Themes" src="https://user-images.githubusercontent.com/626005/63092640-afe17780-bf62-11e9-9ea9-546489bb282c.png">
-
----
-
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8G8PKPEADPD42&source=url">
-  <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif">
-</a>
+### Support
+Email <okay@samesies.io> if you need any additional support with Barber.
