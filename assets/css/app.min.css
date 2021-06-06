@@ -2178,7 +2178,7 @@ main {
 
 #style-guide #markdown,
 .post-layout #markdown {
-	font-family: Lora, serif
+	font-family: 'Nanum Gothic', sans-serif;
 }
 
 #markdown>* {
