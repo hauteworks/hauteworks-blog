@@ -1744,7 +1744,7 @@ main {
 
 .header__list>*,
 .header__title {
-	font-size: .8em;
+	font-size: 1.0em;
 	color: #000
 }
 
