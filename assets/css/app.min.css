@@ -842,7 +842,7 @@ label {
 	.post__bio,
 	.posts__text,
 	.related__text {
-		font-size: 0.50em
+		font-size: 1.10em
 	}
 }
 
@@ -1536,7 +1536,7 @@ h6 {
 
 h2:not(.posts__text):not(.related__text) {
 	font-family: 'Noto Sans KR', sans-serif;
-	font-size: 2em;
+	font-size: 1em;
 	line-height: 1.4
 }
 
