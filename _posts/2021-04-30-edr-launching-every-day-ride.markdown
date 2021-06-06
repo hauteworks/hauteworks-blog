@@ -3,7 +3,7 @@ layout: post
 title: "EDR 런칭, Every Day Ride"
 date: 2017-10-23
 description: 
-image: /assets/images/edr_launch.jpg
+image: /assets/images/edr_launch.png
 author: Thomas Vaeth
 tags: 
   - EDR
