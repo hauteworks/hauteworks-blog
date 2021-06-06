@@ -2179,6 +2179,7 @@ main {
 #style-guide #markdown,
 .post-layout #markdown {
 	font-family: 'Noto Sans KR', sans-serif;
+    weight: 300;
 }
 
 #markdown>* {
