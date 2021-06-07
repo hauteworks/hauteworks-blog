@@ -5,7 +5,7 @@ date: 2021-06-06
 description: 
 image: /assets/images/edr_launch.png
 tags: 
-  - EDR
+  - PRODUCT
 ---
 
 ##### 왜 또 후미등이에요? 이번 후미등은 어떤 점이 더 좋아졌어요?
