@@ -2,13 +2,12 @@
 email: support@hauteworks.com
 baseurl: ""
 permalink: /:year/:month/:day/:title/
-google_analytics: 
 
 name: Hauteworks
 title: Hauteworks Blog
 description: >
   This is Hauteworks' blog
-url:
+url: https://blog.hauteworks.com/
 twitter_username:
 default_img:
 social:
