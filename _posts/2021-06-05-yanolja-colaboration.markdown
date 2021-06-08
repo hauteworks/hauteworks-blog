@@ -6,6 +6,7 @@ description:
 image: /assets/images/yanolja-1.png
 tags: 
   - COLLAB
+permalink: yanolja_collaboration
 ---
 
 2020년 겨울쯤 야놀자에서 콜라보레이션 제의가 들어왔습니다. 국내 대표 숙박 종합 플랫폼인 야놀자에서 모빌리티 디바이스 오트웍스와 무슨 인연이 닿아서 연락이 온 것일까....저희도 몹시 궁금했어요.
