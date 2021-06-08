@@ -13,9 +13,10 @@ twitter_username:
 default_img:
 social:
   - name: instagram
-    url: https://www.instagram.com/_hauteworks_kr
-  - name: globe
+    url: https://www.instagram.com/_hauteworks_kr/
+  - name: store-alt
     url: https://kr.hauteworks.com
+    size: fa-sm
 
 # Contact settings
 contact_img:
