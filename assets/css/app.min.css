@@ -1407,6 +1407,8 @@ main {
 .post-layout #markdown {
 	font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
+	text-align: justify;
+  	text-justify: inter-word;
 }
 
 #markdown>* {
