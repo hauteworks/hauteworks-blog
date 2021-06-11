@@ -835,13 +835,13 @@ mark {
 
 ::-moz-selection {
 	color: #fff;
-	background: rgb(199, 0, 57);
+	background: rgb(255, 105, 180);
 	text-shadow: none
 }
 
 ::selection {
 	color: #fff;
-	background: rgb(199, 0, 57);
+	background: rgb(255, 105, 180);
 	text-shadow: none
 }
 
@@ -995,7 +995,7 @@ main {
 }
 
 .header__list>* a {
-	color: rgb(199, 0, 57);
+	color: black;
 }
 
 .contact {
