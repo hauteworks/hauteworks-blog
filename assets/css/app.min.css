@@ -782,7 +782,7 @@ blockquote,
 q {
 	margin: 0 0 1.5rem;
 	font-family: 'Noto Serif KR', serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 1.25em;
 	color: #000;
 	line-height: 1.4
@@ -1406,7 +1406,7 @@ main {
 #style-guide #markdown,
 .post-layout #markdown {
 	font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #markdown>* {
