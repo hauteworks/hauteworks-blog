@@ -4,7 +4,7 @@ baseurl: ""
 permalink: /:year/:month/:day/:title/
 
 name: Hauteworks
-title: Hauteworks Blog
+title: 오트웍스
 description: >
   This is Hauteworks' blog
 url: https://blog.hauteworks.com/
