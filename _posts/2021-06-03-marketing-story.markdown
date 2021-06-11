@@ -7,7 +7,6 @@ image: /assets/images/marketing-1.jpg
 tags: 
   - INSIDE
 permalink: life_as_a_marketing_manager_at_hauteworks
-description: 꼭 쓸 것
 ---
 
 지금 이 글을 쓰고 있는 저는 n년차 홍보, 마케팅 담당자이자, 지난 봄에 오트웍스에 입사한 오트웍스의 신규 입사자입니다. 가장 최근에 입사한 직원이자, 새로운 마케팅 담당자에요.
