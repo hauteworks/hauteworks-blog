@@ -3,7 +3,7 @@ layout: post
 title: "반도체 수급난으로 울고 웃는 2021년 시즌"
 date: 2021-06-07
 description: 
-image: /assets/images/semiconductor-1.jpg
+image: /assets/images/semiconductor-main_3.png
 tags: 
   - TREND
 permalink: semiconductor_shortage_good_or_bad
