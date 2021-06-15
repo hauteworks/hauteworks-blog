@@ -684,6 +684,7 @@ iframe {
 }
 
 .flex-vid {
+	display: flex;
 	position: relative;
 	overflow: hidden;
 	justify-content: center
