@@ -708,12 +708,6 @@ iframe {
 	width: 100%
 }
 
-.flex-vid iframe {
-	top: 0;
-	left: 0;
-	width: 100%
-}
-
 body {
 	font-family: 'Noto Sans KR', sans-serif;
 	line-height: 1.7;
