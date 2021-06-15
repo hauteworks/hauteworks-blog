@@ -819,7 +819,13 @@ small {
 }
 
 strong {
-	font-weight: 500
+	font-weight: 700
+}
+
+@media (min-width:32em) {
+	strong {
+		font-weight: 500
+	}
 }
 
 sub,
