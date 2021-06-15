@@ -41,7 +41,6 @@
 .post__author,
 .post__date,
 .posts__next,
-.related__text,
 .subscribe__error,
 .subscribe__title,
 cite,
@@ -56,7 +55,8 @@ label {
 }
 
 .header__list>*,
-.header__title {
+.header__title,
+.related__text {
 	font-weight: 500
 }
 
@@ -1481,7 +1481,7 @@ main {
 
 @media (min-width:32em) {
 	#markdown p {
-		font-size: 1.15em;
+		font-size: 1.13em;
 		font-weight: 300
 	}
 }
