@@ -686,7 +686,6 @@ iframe {
 .flex-vid {
 	position: relative;
 	overflow: hidden;
-	justify-content: center
 }
 
 /*
@@ -704,6 +703,13 @@ iframe {
 	top: 0;
 	left: 0;
 	height: 100%;
+	width: 100%
+}
+
+flex-vid iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%
 }
 
