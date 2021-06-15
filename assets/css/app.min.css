@@ -691,7 +691,7 @@ iframe {
 .flex-vid:before {
 	content: "";
 	display: block;
-	padding-bottom: 100%
+	padding-bottom: 56.5%
 }
 
 .flex-vid embed,
