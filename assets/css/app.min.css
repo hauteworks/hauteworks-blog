@@ -1411,7 +1411,7 @@ main {
 	font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
 	text-align: justify;
-  	text-justify: inter-word;
+  	text-justify: inter-word
 }
 
 #markdown>* {
@@ -1476,7 +1476,7 @@ main {
 
 @media (min-width:32em) {
 	#markdown p {
-		font-size: 1.15em
+		font-size: 1.10em
 	}
 }
 
@@ -1614,7 +1614,9 @@ main {
 }
 
 .posts__text {
-	font-weight: 400
+	font-weight: 400;
+	text-align: justify;
+	text-justify: inter-word
 }
 
 @media (min-width:32em) {
