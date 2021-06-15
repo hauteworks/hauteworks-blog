@@ -706,7 +706,7 @@ iframe {
 	width: 100%
 }
 
-flex-vid iframe {
+.flex-vid iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
