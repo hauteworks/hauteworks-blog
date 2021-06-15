@@ -686,7 +686,6 @@ iframe {
 .flex-vid {
 	position: relative;
 	overflow: hidden;
-	height: 100%;
 }
 
 /*
@@ -698,7 +697,6 @@ iframe {
 */
 
 .flex-vid embed,
-.flex-vid iframe,
 .flex-vid object,
 .flex-vid video {
 	position: absolute;
