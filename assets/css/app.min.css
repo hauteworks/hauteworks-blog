@@ -69,7 +69,7 @@ label {
 	.post__bio,
 	.posts__text,
 	.related__text {
-		font-size: 1.10em
+		font-size: 1.05em
 	}
 }
 
@@ -1474,13 +1474,11 @@ main {
 	font-size: 1.1em
 }
 
-/*
 @media (min-width:32em) {
 	#markdown p {
-		font-size: 1.15em
+		font-size: 1.05em
 	}
 }
-*/
 
 #markdown p img {
 	margin-bottom: 0
