@@ -687,6 +687,7 @@ iframe {
 	display: flex;
 	position: relative;
 	overflow: hidden;
+	justify-content: center
 }
 
 /*
@@ -698,6 +699,7 @@ iframe {
 */
 
 .flex-vid embed,
+.flex-vid iframe,
 .flex-vid object,
 .flex-vid video {
 	position: absolute;
