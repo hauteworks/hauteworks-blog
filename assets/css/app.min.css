@@ -688,13 +688,11 @@ iframe {
 	overflow: hidden
 }
 
-/*
 .flex-vid:before {
 	content: "";
 	display: block;
-	padding-bottom: 56.5%
+	padding-bottom: 100%
 }
-*/
 
 .flex-vid embed,
 .flex-vid iframe,
