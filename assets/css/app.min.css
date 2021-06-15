@@ -686,7 +686,7 @@ iframe {
 .flex-vid {
 	position: relative;
 	overflow: hidden;
-	align-items: center
+	justify-content: center
 }
 
 /*
