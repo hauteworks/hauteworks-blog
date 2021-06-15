@@ -38,8 +38,6 @@
 }
 
 .form__message,
-.header__list>*,
-.header__title,
 .post__author,
 .post__date,
 .posts__next,
@@ -55,6 +53,11 @@ h5,
 h6,
 label {
 	font-weight: 700
+}
+
+.header__list>*,
+.header__title {
+	font-weight: 500
 }
 
 .post__author,
@@ -816,7 +819,7 @@ small {
 }
 
 strong {
-	font-weight: 700
+	font-weight: 500
 }
 
 sub,
@@ -974,7 +977,7 @@ main {
 
 .header__list>*,
 .header__title {
-	font-size: 0.9em;
+	font-size: 1.0em;
 	color: #000
 }
 
@@ -1434,7 +1437,8 @@ main {
 #markdown h6 {
 	margin-bottom: .5rem;
 	font-family: 'Noto Sans KR', sans-serif;
-	font-weight: 500
+	font-weight: 500;
+	word-break: keep-all
 }
 
 #markdown h1 {
@@ -1616,9 +1620,8 @@ main {
 }
 
 .posts__text {
-	font-weight: 400;
-	text-align: justify;
-	text-justify: inter-word
+	font-weight: 300;
+	text-align: justify
 }
 
 @media (min-width:32em) {
