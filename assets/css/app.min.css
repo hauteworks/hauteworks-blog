@@ -699,7 +699,6 @@ iframe {
 */
 
 .flex-vid embed,
-.flex-vid iframe,
 .flex-vid object,
 .flex-vid video {
 	position: absolute;
