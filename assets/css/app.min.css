@@ -1433,7 +1433,8 @@ main {
 #markdown h5,
 #markdown h6 {
 	margin-bottom: .5rem;
-	font-family: Roboto, sans-serif
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 500
 }
 
 #markdown h1 {
@@ -1471,12 +1472,13 @@ main {
 
 #markdown p {
 	margin-bottom: 1.5rem;
-	font-size: 1.1em
+	font-size: 1.1em;
 }
 
 @media (min-width:32em) {
 	#markdown p {
-		font-size: 1.05em
+		font-size: 1.15em;
+		font-weight: 300
 	}
 }
 
