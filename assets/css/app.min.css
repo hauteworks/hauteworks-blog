@@ -1619,8 +1619,14 @@ main {
 }
 
 .posts__text {
-	font-weight: 300;
+	font-weight: 400;
 	text-align: justify
+}
+
+@media (min-width:32em) {
+	.posts__text {
+		font-weight: 300;
+	}
 }
 
 @media (min-width:32em) {
