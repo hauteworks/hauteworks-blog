@@ -3,7 +3,7 @@ layout: post
 title: "야놀자가 여기서 왜 나와?"
 date: 2021-06-05
 description: 야놀자X오트웍스 콜라보레이션, 플랫폼 콜라보레이션 사례 
-image: /assets/images/yanolja-collabo-thumbnail-1.png
+image: /assets/images/yanolja-collabo-thumbnail-1.jpg
 tags: 
   - COLLAB
 permalink: yanolja-collaboration-project
