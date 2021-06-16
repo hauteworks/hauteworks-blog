@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "투박하고 느리지만, 그만큼 진실된 마케팅"
-date: 2021-06-03
+date: 2021-05-10
 description: 스타트업 마케팅 채용 이야기, 스타트업에서 마케터로 살아남기
 image: /assets/images/marketing-hr-1.jpg
 tags: 
