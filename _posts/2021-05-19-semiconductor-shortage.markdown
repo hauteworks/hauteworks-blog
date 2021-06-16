@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "반도체 수급난으로 울고 웃는 2021년 시즌"
-date: 2021-06-07
+date: 2021-05-19
 description: 반도체 수급난항이 스타트업에 미치는 영향, 스마트 후미등의 반도체 이야기
 image: /assets/images/semiconductor-main_3.png
 tags: 
