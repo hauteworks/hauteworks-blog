@@ -9,7 +9,7 @@ slogan: 오트웍스가 제안하는 퍼스널 모빌리티 라이프 스타일
 description: 어제보다 더 스마트한 모빌리티 환경을 위한 오트웍스의 성장 기록을 담은 기술 블로그입니다.
 url: https://blog.hauteworks.com
 twitter_username:
-default_img:
+default_img: /assets/images/blog_thumbnail.jpg
 social:
   - name: instagram
     url: https://www.instagram.com/_hauteworks_kr/
