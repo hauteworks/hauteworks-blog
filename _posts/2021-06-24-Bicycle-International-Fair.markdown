@@ -1,4 +1,15 @@
-﻿자전거 산업에서 가장 중요한 행사는 어떤 것이 있을까요. 투르 드 프랑스(le Tour de France), 지로 디탈리아(Giro d'Italia) 같은 세계적인 사이클 투어를 떠올리시기도 할텐데요, 저희는 자전거 관련 산업 박람회, 전시회가 중요한 이벤트 중 하나로 꼽힙니다.
+---
+layout: post
+title: "오트웍스 해외 유랑기 :: 자전거 관련 해외 박람회 소개"
+date: 2021-06-21
+description: 자전거 해외 박람회, 유로바이크, 인터바이크, 상해 자전거 박람회
+image: /assets/images/2018-interbike-thumbnail
+tags: 
+  - 
+permalink: Bicycle-International-Fair
+---
+
+자전거 산업에서 가장 중요한 행사는 어떤 것이 있을까요. 투르 드 프랑스(le Tour de France), 지로 디탈리아(Giro d'Italia) 같은 세계적인 사이클 투어를 떠올리시기도 할텐데요, 저희는 자전거 관련 산업 박람회, 전시회가 중요한 이벤트 중 하나로 꼽힙니다.
 
 ![2018 유로바이크에 참여한 오트웍스의 부스 현장](/assets/images/eurobike-2018-2.jpg)
 
