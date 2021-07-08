@@ -2,7 +2,7 @@
 layout: post
 title: "쉐어 모빌리티 전성시대"
 date: 2021-07-05
-description: 쉐어모빌리티, 모빌리티 디바이스, 서울 따릉이, 대전 타슈
+description: 쉐어모빌리티와 모빌리티 디바이스, 서울 따릉이, 대전 타슈
 image: /assets/images/210629-sharemobility-1-thumbnail.jpg
 tags: trend
   - 
