@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "네바다 사막에서 세계적인 바이크쇼, 미국 '인터바이크' "
-date: 2021-07-19
+date: 2021-07-20
 description: 자전거 해외 박람회, 미국 자전거 박람회 현장 방문기, 인터바이크
 image: /assets/images/interbike_thum.jpg
 tags: trend
